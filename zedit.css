@@ -1,0 +1,12 @@
+/* Do NOT edit this class */
+
+.zinput{width: 0.1px;height: 0.1px;opacity: 0;overflow: hidden;position: absolute;z-index: -1;}
+
+
+
+
+
+/* Edit this class */
+
+.zinput + label{display:block;height:278px;width:185px;background:#EEE no-repeat;cursor:pointer;border: 2px dotted #999;background-size:cover;}
+
