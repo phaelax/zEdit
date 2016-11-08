@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="jquery.zedit.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="zedit.css">
+	<style>
+		.thing{width:500px}
+	</style>
+</head>
+<body>
+
+
+	<h2 class="editme">Double click me to edit!</h2>
+	
+	<h3>Double click the paragraph below to edit</h3>
+	<p class="thing editme">
+	Bacon ipsum dolor amet turducken tri-tip pork chop fatback sausage, prosciutto boudin bresaola turkey venison. Turkey bresaola chuck pancetta picanha burgdoggen drumstick. T-bone salami biltong beef picanha short loin. Shank hamburger corned beef cupim. Pork chop meatball ham hock picanha pig, andouille pastrami cow sausage bacon t-bone tongue filet mignon. Capicola boudin corned beef ground round salami, tri-tip fatback doner meatloaf tongue landjaeger porchetta drumstick sirloin. Bresaola ham hock pork chop shankle tail.
+	</p>
+	
+	<input type="file" id="test"/><label for="test"></label>
+	<input type="file" id="test2"/><label for="test2"></label>
+
+	<script>
+		$('#test2').zedit();
+		$('#test').zedit('http://i.imgur.com/n2D5hgL.png');
+	</script>
+</body>
+</html>
