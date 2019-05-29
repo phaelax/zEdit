@@ -4,4 +4,4 @@ Requirements: jQuery
 
 Simple plugin which allows a user to doubleclick a textual element and edit it's contents. Or change file input to display a preview image prior to uploading.
 
-https://jsfiddle.net/ucbd26t1/2/
+https://jsfiddle.net/phaelax/3r9ob1up/
